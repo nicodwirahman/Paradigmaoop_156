@@ -5,5 +5,9 @@ using namespace std;
 #include "ibu.h"
 
 int main() {
-	ibu*
+	ibu* varibu = new ibu("dini");
+	bu* varibu2 = new ibu("novi");
+	anak* varanak1 = new anak("tono");
+	anak* varanak2 = new anak("rini");
+	anak* varanak3 = new anak("Dewi");
 }
