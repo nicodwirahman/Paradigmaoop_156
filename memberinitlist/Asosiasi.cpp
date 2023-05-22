@@ -69,4 +69,13 @@ int main() {
 	vardokter2->cetakpasien();
 	varpasien1->cetakDokter();
 	varpasien2->cetakDokter();
+
+	delete varpasien1;
+	delete varpasien2;
+	delete vardokter1;
+	delete vardokter2;
+
+	return 0;  
+
+
 }
