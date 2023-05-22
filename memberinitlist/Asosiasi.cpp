@@ -54,3 +54,10 @@ void dokter::cetakpasien() {
 	}
 	cout << endl;
 }
+
+int main() {
+	dokter* vardokter1 = new dokter("dr.budi");
+	dokter* vardokter2 = new dokter("dr.tono");
+	pasien* varpasien1 = new pasien("Andi");
+	pasien* varpasien2 = new pasien("Lia");
+}
