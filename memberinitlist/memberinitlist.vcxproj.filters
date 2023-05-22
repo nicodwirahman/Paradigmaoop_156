@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Asosiasi.cpp">
+    <ClCompile Include="memberinitlist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
