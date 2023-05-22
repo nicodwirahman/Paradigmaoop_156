@@ -28,4 +28,7 @@ public:
 	~dokter() {
 		cout << " dokter \"" << nama << "\" tidak ada\n";
 	}
+
+	void tambahpasien(pasien*);
+	void cetakpasien();
 };
