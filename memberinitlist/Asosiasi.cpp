@@ -60,4 +60,13 @@ int main() {
 	dokter* vardokter2 = new dokter("dr.tono");
 	pasien* varpasien1 = new pasien("Andi");
 	pasien* varpasien2 = new pasien("Lia");
+
+	vardokter1->tambahpasien(varpasien1);
+	vardokter1->tambahpasien(varpasien2);
+	vardokter2->tambahpasien(varpasien1);
+
+	vardokter1->cetakpasien();
+	vardokter2->cetakpasien();
+	varpasien1->cetakDokter();
+	varpasien2->cetakDokter();
 }
