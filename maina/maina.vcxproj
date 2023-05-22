@@ -24,6 +24,7 @@
     <ProjectGuid>{9be9ff54-6b74-422d-8dd4-1906da4b3bb7}</ProjectGuid>
     <RootNamespace>maina</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>mainIA</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="maina.cpp" />
+    <ClCompile Include="mainIA.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="anak.h" />
